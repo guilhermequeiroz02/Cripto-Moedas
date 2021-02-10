@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".selecionar_opcao">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="289dp"
+        android:layout_height="289dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btSaldo"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:text="Entradas, saídas e saldo" />
+
+        <Button
+            android:id="@+id/btCriptoativos"
+            android:layout_width="match_parent"
+            android:layout_height="143dp"
+            android:text="Valores atuais dos criptoativos" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="288dp"
+        android:layout_height="43dp"
+        android:text="Bem vindo, Guilherme!"
+        android:textColor="#0E0E0E"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
